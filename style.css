@@ -1,0 +1,156 @@
+*{
+    margin:0;
+
+}
+.header-nav{
+background-color:#000000ef;
+height: 45px;
+width: 100%;
+border-bottom: 1px solid #3c3c3c71;
+
+}
+.header-nav:hover{
+  background-color: rgba(27, 26, 26, 0.953);
+  
+}
+
+.first-text{
+  text-align:center;
+  padding-top: 7px;
+
+}
+.text-shipping{
+    font-size: 13px;
+    font-style: inherit;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.vara{
+    background-color: hsla(208, 100%, 97%, 0.238);
+    height: 1px;
+    width: 100%;
+    margin-top: 10px;
+}
+.navbar{
+    background-color: rgba(0, 0, 0, 0.937);
+    height: 90px;
+}
+#navvv{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.sticky{
+    /* position: -webkit-sticky; */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+.container-fluid{
+  padding-left: 20px;
+}
+.navbar-brand{
+  padding-left: 155px;
+  font-size:18px;
+}
+.shop{
+  color: aliceblue;
+}
+.right-side{
+  padding-right: 110px;
+}
+.user{
+  padding-right: 20px;
+  font-size: 23px;
+}
+.cart{
+  /* padding-right: px; */
+  font-size: 22px;
+}
+.txt:hover{
+  text-decoration: underline;
+}
+.second-bar{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  row-gap: 18px;
+  column-gap: 42px;
+  padding-top: 35px;
+}
+.images{
+  width: 380px;
+}
+@media (max-width:1230px){
+  .images{
+    width:270px;
+  }
+}
+@media (max-width:1000px){
+  .second-bar{
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 20px;
+  }
+  .images{
+    width: 319px;
+}
+
+}
+@media (max-width:770px){
+  .images{
+    width:131px;
+  }
+}
+@meadia (max-width:660px)
+@media (max-width:375px){
+  .images{
+    width: 150px;
+  }
+@media (max: width 990px){
+    .navbar-brand{
+        margin-right: 26rem;
+    }
+}
+}
+
+/* .image-last{
+  width: 330px;
+  padding-left: 134px;
+}  */
+.foot1{
+  height: 270px;
+  background-color: #141414;
+  color: hsl(0, 100%, 100%);
+  text-align: center;
+  padding-top: 60px;
+  border-bottom: 1px solid hsla(0, 3%, 58%, 0.586);
+}
+.contact{
+  color: aliceblue;
+  
+}
+.last-footer{
+  background-color: #141414;
+  height: 100px;
+  text-align: center;
+  padding-top: 40px;
+}
+.id1{
+  color: rgba(240, 248, 255, 0.597);
+}
+.id1:hover{
+  color: aliceblue;
+}
+.last-words{
+  color: rgba(240, 248, 255, 0.63);
+  font-size: 13px;
+  text-decoration:none;
+}
+.last-words:hover{
+  color: aliceblue;
+  text-decoration: underline;
+}
+.btn6{
+  color: aliceblue;
+}
